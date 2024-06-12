@@ -130,7 +130,7 @@ const GraduationProjectData = {
     methods: "Story board",
     subheadingWhy: "Why:",
     why:
-      "I chose to create a storyboard to simplify the project's main idea and make it easily understandable and shareable. By using visual illustrations, the storyboard transforms complex concepts into clear images that require no explanation.",
+      "I chose to create a storyboard because it simplifies and visually represents the project's main idea and associated challenges. The limitations of existing CMS platforms are complex, affecting various aspects of user and content management. By using a storyboard, I can break down these complexities into clear, visual segments with text alongside them, making them easier to understand and communicate.",
     subHeadingHow: "How:",
     how:
       "I wanted to bring my project idea to life, so I decided to create a storyboard using canva and AI generated images. First, I wrote down my story concept in a written form, outlining the plot and key elements. Then, with the help of the tool, I transformed my written script into a visual storyboard by generating images and adding them to each panel. This allowed me to visually communicate my project goal and make it more understandable for others.",
@@ -138,7 +138,7 @@ const GraduationProjectData = {
     results: "The result can be seen on the right side.",
     conclusionHeading: "Conclusion/recommendation:",
     conclusion:
-      "In conclusion, by creating the storyboard using Storyboard, I was able to effectively visualize and communicate the project idea. where the storyboard panels showcase the sequence of events, characters, and key elements of my story. The storyboard provides a clear representation of my project idea, making it easier for others to understand and connect with the story I want to tell. Moving forward, the next step is to conduct a MoSCoW analysis to finalize which features offered by Contentful can be utilized for this specific project, aligning with stakeholders' needs.",
+      "In conclusion, creating the storyboard using Canva and AI-generated images allowed me to effectively visualize and communicate the project idea. The storyboard clearly illustrates the sequence of events, characters, and key elements, making the complex concepts easier for others to understand. This visualization facilitates better communication with stakeholders and team members, ensuring everyone is on the same page regarding the project's goals and challenges. Moving forward, the next step is to conduct a MoSCoW analysis to identify and prioritize the features offered by Contentful that best align with the project's requirements and stakeholders' needs.",
     image1: StortBoard1,
     image2: StortBoard2,
     image3: StortBoard3,
