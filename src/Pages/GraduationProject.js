@@ -931,10 +931,16 @@ function GraduationProject() {
                   </div>
                 </div>
                 <div style={{ width: "50%", flex: "1", alignItems: "center" }}>
-                  <img
-                    src={graduationProjectData.technicalImplementation.image}
-                    alt="Prototype"
-                  />
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/Fe9s9VL6aWc?si=YOYzMoJ2q_C1MIVQ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
                 </div>
               </div>
             </section>
