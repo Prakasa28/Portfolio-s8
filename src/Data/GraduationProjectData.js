@@ -44,13 +44,13 @@ const GraduationProjectData = {
       "The stakeholder interview was conducted because it helped me to understand the stakeholder by gathering their opinions, pain points, goals, behavior, and experience.",
     subHeadingHow: "How:",
     how:
-      "First, I formulated interview questions to help me identify the goals, behaviors, pain points, and experiences of the stakeholders. Then, I scheduled separate meetings with two stakeholders. During the interviews, I took notes, and later, I summarized the pain points and key takeaways from the interviews.",
+      "First, I formulated interview questions aimed at identifying the goals, behaviors, pain points, and experiences of the stakeholders. some of the key question includes: Can you walk me through the current process of updating the marketing website?, What challenges or obstacles do you currently face when attempting to update the website?. Then, I scheduled separate meetings with two stakeholders. During the interviews, I took detailed notes and later summarized the pain points and key takeaways.",
     resultHeading: "Result: ",
     results:
       "The interview highlighted challenges like balancing design consistency with dynamic flexibility, relying on developers for customization, and inefficiencies in blog content creation. It also emphasized the necessity of a user-friendly CMS, enabling non-developers to customize pages independently, reducing dependency on developers.",
     conclusionHeading: "Conclusion/recommendation:",
     conclusion:
-      "In conclusion, through conducting stakeholder interviews, I gained insights into the goals, behaviors, and pain points of the stakeholders. Some of these insights include enabling non-developers to customize pages independently and reducing dependency on developers. The next step is to create an empathy map to gain a deeper understanding of the user’s needs .",
+      "The stakeholder interviews provided critical insights, emphasizing the need for a user-friendly CMS. Such a system would empower non-developers to customize pages independently, reducing dependency on developers and streamlining the content creation process. For instance, an intuitive CMS with drag-and-drop features and customizable templates could address the identified pain points effectively. The next step is to create an empathy map for a deeper understanding of user needs.",
     image: InterviewImage,
   },
 
@@ -76,7 +76,7 @@ const GraduationProjectData = {
       "Based on the trend analysis, I've determined that CMS platforms like Contentful would be suitable for this project because they allow you to customize the editor interface to your preferences. Additionally, Contentful simplifies the use of different languages and integrates well with modern web tools like Next.js. Furthermore, it excels in uploading various media types, including animations.",
     conclusionHeading: "Conclusion/recommendation:",
     conclusion:
-      "So, in conclusion, through the trend analysis, I've identified Contentful as the suitable CMS for this project. The next step is to create a storyboard to visualize the project concept.",
+      "So, in conclusion, through the trend analysis, I've identified Contentful as the suitable CMS for this project due to its comprehensive features that effectively address the user needs and project requirements. The next step is to create a storyboard to visualize the project concept.",
     image: CmsImage,
   },
 
@@ -113,7 +113,8 @@ const GraduationProjectData = {
     how:
       "I created a POV table and problem statement with the insights gathered from conducting stakeholder interviews and empathy mapping, which helped me understand the perspectives and needs of stakeholders.",
     resultHeading: "Result: ",
-    results: "The result can be seen on the right side",
+    results:
+      "Problem statement: Zoe is a marketing manager at Cape who needs freedom to create and edit new pages on the marketing website without developer assistance because relying on developers for changes delays updating the marketing updates. (The POV (Point of View) table can be seen on the right side)",
     conclusionHeading: "Conclusion/recommendation:",
     conclusion:
       " The problem statement helped me understand and tackle the problem by defining its scope and directing my attention towards finding solution and The next step is to conduct a trend analysis to identify available CMS systems that suit the stakeholders needs.",
@@ -138,7 +139,7 @@ const GraduationProjectData = {
     results: "The result can be seen on the right side.",
     conclusionHeading: "Conclusion/recommendation:",
     conclusion:
-      "In conclusion, creating the storyboard using Canva and AI-generated images allowed me to effectively visualize and communicate the project idea. The storyboard clearly illustrates the sequence of events, characters, and key elements, making the complex concepts easier for others to understand. This visualization facilitates better communication with stakeholders and team members, ensuring everyone is on the same page regarding the project's goals and challenges. Moving forward, the next step is to conduct a MoSCoW analysis to identify and prioritize the features offered by Contentful that best align with the project's requirements and stakeholders' needs.",
+      "In conclusion, creating the storyboard using Canva and AI-generated images allowed me to effectively visualize and communicate the project idea. The storyboard clearly illustrates the sequence of events, characters, and key elements, making the concepts easier for others to understand. This visualization facilitates better communication with stakeholders and team members, ensuring everyone is on the same page regarding the project's goals and challenges. Moving forward, the next step is to conduct a MoSCoW analysis to identify and prioritize the features offered by Contentful that best align with the project's requirements and stakeholders' needs.",
     image1: StortBoard1,
     image2: StortBoard2,
     image3: StortBoard3,
