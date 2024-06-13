@@ -10,6 +10,7 @@ import TrendAnalysis from "../Graduatoin-Pdf/Trend analysis.pdf";
 import IframeComponent from "../Components/Iframe";
 import EmapthyMap from "../Graduatoin-Pdf/EmpathyMap.pdf";
 import MoscowAnalysis from "../Graduatoin-Pdf/MoSCoW analysis.pdf";
+import TechnicalPrototype from "../Graduatoin-Pdf/TechnicalPrototype.pdf";
 
 function GraduationProject() {
   return (
@@ -775,7 +776,7 @@ function GraduationProject() {
                     <br />
                     <div>
                       <a
-                        href={TrendAnalysis}
+                        href={TechnicalPrototype}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -794,11 +795,37 @@ function GraduationProject() {
                     </div>
                   </div>
                 </div>
-                <div style={{ width: "50%", flex: "1", alignItems: "center" }}>
-                  <img
-                    src={graduationProjectData.technicalPrototype.image}
-                    alt="Prototype"
-                  />
+                <div
+                  style={{
+                    width: "50%",
+                    flex: "1",
+                    display: "flex",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <p
+                    style={{
+                      textAlign: "center",
+                      margin: "20px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    This is just the technical prototype demo, not the final
+                    product demo.
+                  </p>
+                  <iframe
+                    width="430"
+                    height="315"
+                    src="https://www.youtube.com/embed/2tqU9AvLaWE?si=8oj62afCZAQeRzgw"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
                 </div>
               </div>
             </section>

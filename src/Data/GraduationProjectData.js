@@ -201,7 +201,7 @@ const GraduationProjectData = {
       "I received new designs from the designer for six different pages of the marketing website. My goal was to create reusable and dynamic component blocks and set them up in the CMS system so that the marketing team and non-developers could create new pages using these blocks through Contentful. I also researched how to implement certain features in the prototype phase and used those insights to develop these components.",
     resultHeading: "Result: ",
     results:
-      "The result can be seen on the right side, more technical detacls can be viewed in the document below.",
+      "The result can be seen on the right side, more technical details can be viewed in the document below.",
     conclusionHeading: "Conclusion/recommendation:",
     conclusion: "",
     image: MoscowAnalysis,
