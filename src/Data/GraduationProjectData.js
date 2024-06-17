@@ -10,6 +10,8 @@ import StortBoard3 from "../assets/graduation-Project-Images/storyboard-3.png";
 import StortBoard4 from "../assets/graduation-Project-Images/storyboard-4.png";
 import StortBoard5 from "../assets/graduation-Project-Images/storyboard-5.png";
 import PovTable from "../assets/graduation-Project-Images/Pov-table.png";
+import PeerReview from "../assets/graduation-Project-Images/peer review.png";
+import UseabilityTest from "../assets/graduation-Project-Images/useability test.png";
 
 const GraduationProjectData = {
   group1: {
@@ -24,6 +26,10 @@ const GraduationProjectData = {
   projectplan: "Project Plan",
   projectplanText:
     "The project plan includes information about the assignment, stakeholders, agreements, approach, planning, financials, and risks. The project plan was reviewed by my mentor, and I applied the feedback, adjusting it based on the project's scope and needs. It provides a roadmap for the project, outlining objectives, tasks, and timelines. The project plan was super helpful for me. It made sure I knew exactly what steps to take and when to take them. By having everything laid out, I could stay organized and focused on my own. Plus, thinking about possible problems early on helped me prepare for them, making the whole project run smoother.",
+
+  mainQuestion: "What problem am I solving?",
+  reaseachQuestion:
+    "The marketing team needs the ability to autonomously update the marketing website content and create new pages to avoid delays caused by dependency on developers.",
 
   group2: {
     heading: "Project Approach - Design thinking method",
@@ -123,6 +129,8 @@ const GraduationProjectData = {
   },
 
   ideatePhaseHeading: "Ideate phase",
+  ideatePhaseIntroText:
+    "During the Ideate phase, I created a storyboard to bring my project idea to life. Additionally, I conducted MoSCoW analysis to finalize the project's features. This involved discussions with developers, designers, and stakeholders based on interviews, suggestions, and opinions. Ultimately, I determined the essential features for the project through this process.",
 
   storyBoard: {
     question:
@@ -168,6 +176,8 @@ const GraduationProjectData = {
   },
 
   prototypePhaseHeading: "Prototype phase",
+  prototypePhaseIntroText:
+    "Based on the finalized features in the previous phase, I need to test features and resolve issues before integrating them into the main code. This approach helped me to reduce risks during development and ensured smoother integration. It also helped me in gathering early feedback, confirming the feasibility of some features while identifying those that are not feasible. With this prototype, I showcase to stakeholders how things work, gather their thoughts, and refined features accordingly.",
   technicalPrototype: {
     question:
       "How can prototypes demonstrate the integration of CMS into the project's workflow?",
@@ -181,13 +191,15 @@ const GraduationProjectData = {
       "After reviewing the Contentful CMS documentation and conducting a MoSCoW analysis, I developed the essential features using Next.js as the primary framework. This choice was taken by the fact that the main code base is built with Next.js. ",
     resultHeading: "Result: ",
     results:
-      "The implemented features can be viewed in the GIF on the left side.",
+      "The implemented features can be viewed on the left side and in the document below.",
     conclusionHeading: "Conclusion/recommendation:",
     conclusion:
       "The next step is to showcase the prototype to the stakeholders and developers, gather feedback, and begin implementing it into the main codebase.",
     image: MoscowAnalysis,
   },
   implementationPhase: "Implementation Phase",
+  implementationPhaseIntroText:
+    "Based on the tested features from the prototype and the feedback received, I implement the features in the main code base according to the project requirements. During the implementation phase, I ensured that each feature was integrated correctly, addressing any issues identified during testing.",
 
   technicalImplementation: {
     question: "Technical Implementation of Dynamic Reusable Component Blocks",
@@ -203,9 +215,31 @@ const GraduationProjectData = {
     results:
       "The result can be seen on the right side, more technical details can be viewed in the document below.",
     conclusionHeading: "Conclusion/recommendation:",
-    conclusion: "",
+    conclusion:
+      "The current implementation of Next.js with Contentful CMS will successfully empowered Cape’s marketing team to manage their website independently, significantly reducing reliance on developers for routine updates and content changes. By enabling non-technical users to create, edit, and delete pages and components autonomously, the project has streamlined the content management process and improved agility in responding to market needs.",
     image: MoscowAnalysis,
   },
+  testPhase: "Test Phase",
+  test: {
+    question: "Testing ",
+    subHeading: "Methods used:",
+    methods: "Peer review(code review) and user test.",
+    subheadingWhy: "Why:",
+    why:
+      "Peer review played a crucial role in ensuring code quality and receiving expert feedback on technical aspects. Additionally, user testing was crucial in validating usability and gathering direct feedback from end-users interacting with the Contentful CMS interface. Together, these methods significantly enhanced the overall functionality and usability of the implemented solution for Cape’s marketing team.",
+    subHeadingHow: "How:",
+    how:
+      "Each time I create a feature for a dynamic component, I initiate a merge request in GitLab and assign it to my mentor or one of the developers for review. Once the review is completed, I receive feedback which I then incorporate into my code. As part of user testing, I evaluate the Contentful user interface with the current setup and gather feedback from users.",
+    resultHeading: "Result: ",
+    results:
+      "Insights from user feedback, such as organizing reference fields better and placing important elements at the top, might directly influence improvement. Similarly, feedback from code reviews has guided refinements in code structure and implementation. Continuing these practices will ensure the system remains user-friendly and meets high standards of functionality and usability.",
+    conclusionHeading: "Conclusion/recommendation:",
+    conclusion:
+      "The peer review process effectively ensures code quality through structured feedback and iterative refinement. User testing revealed valuable insights for enhancing CMS usability, emphasizing clearer organization and intuitive component placement. Implementing these findings will likely improve user experience and overall system functionality. Regular peer reviews and user testing are crucial aspects for maintaining high standards of both code and usability in the development workflow.",
+    image: PeerReview,
+    image1: UseabilityTest,
+  },
+  reflection: "Reflection",
 };
 
 export default GraduationProjectData;

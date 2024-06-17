@@ -11,7 +11,8 @@ import IframeComponent from "../Components/Iframe";
 import EmapthyMap from "../Graduatoin-Pdf/EmpathyMap.pdf";
 import MoscowAnalysis from "../Graduatoin-Pdf/MoSCoW analysis.pdf";
 import TechnicalPrototype from "../Graduatoin-Pdf/TechnicalPrototype.pdf";
-import technicalImplementation from "../Graduatoin-Pdf/Technical Implementation.pdf";
+import TechnicalImplementation from "../Graduatoin-Pdf/Technical Implementation.pdf";
+import TestDocument from "../Graduatoin-Pdf/Test document.pdf";
 
 function GraduationProject() {
   return (
@@ -83,6 +84,25 @@ function GraduationProject() {
               </button>
             </a>
           </div>
+          <br />
+          <br />
+          <br />
+          <div>
+            <h1 className="text-xl text-dark-heading font-bold">
+              {graduationProjectData.mainQuestion}
+            </h1>
+            <br />
+            <p
+              className="text-base text-dark-heading    "
+              dangerouslySetInnerHTML={{
+                __html: graduationProjectData.reaseachQuestion,
+              }}
+            ></p>
+            <br />
+          </div>
+          <br />
+          <br />
+          <br />
           <div
             div
             className="flex flex-col justify-center items-center mt-20 mb-20"
@@ -507,6 +527,16 @@ function GraduationProject() {
 
         <div className="container mx-auto max-width pt-6 pb-16">
           <div>
+            <p
+              className="text-base text-dark-heading    "
+              dangerouslySetInnerHTML={{
+                __html: graduationProjectData.ideatePhaseIntroText,
+              }}
+            ></p>
+            <br />
+            <br />
+          </div>
+          <div>
             <section id="Story-Board">
               <div className="flex flex-row  gap-5 items-center">
                 <div style={{ flex: "1" }}>
@@ -720,6 +750,16 @@ function GraduationProject() {
 
         <div className="container mx-auto max-width pt-6 pb-16">
           <div>
+            <p
+              className="text-base text-dark-heading    "
+              dangerouslySetInnerHTML={{
+                __html: graduationProjectData.prototypePhaseIntroText,
+              }}
+            ></p>
+            <br />
+            <br />
+          </div>
+          <div>
             <section id="Technical-Prototype">
               <div className="flex flex-row-reverse  gap-5 items-center">
                 <div style={{ flex: "1" }}>
@@ -846,6 +886,16 @@ function GraduationProject() {
 
         <div className="container mx-auto max-width pt-6 pb-16">
           <div>
+            <p
+              className="text-base text-dark-heading    "
+              dangerouslySetInnerHTML={{
+                __html: graduationProjectData.implementationPhaseIntroText,
+              }}
+            ></p>
+            <br />
+            <br />
+          </div>
+          <div>
             <section id="Technical-Implementation">
               <div className="flex flex-row  gap-5 items-center">
                 <div style={{ flex: "1" }}>
@@ -912,7 +962,7 @@ function GraduationProject() {
                     <br />
                     <div>
                       <a
-                        href={technicalImplementation}
+                        href={TechnicalImplementation}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -944,6 +994,135 @@ function GraduationProject() {
                   ></iframe>
                 </div>
               </div>
+            </section>
+          </div>
+        </div>
+        <h1
+          className="text-2xl text-dark-heading  text-4xl   font-bold mt-16 mb-16 bg-gradient "
+          style={{
+            padding: "4rem",
+            width: "100%",
+            textAlign: "center",
+          }}
+        >
+          {graduationProjectData.testPhase}
+        </h1>
+        <div className="container mx-auto max-width pt-6 pb-16">
+          <div>
+            <section id="Test">
+              <div className="flex flex-row  gap-5 items-center">
+                <div style={{ flex: "1" }}>
+                  <p className="text-base text-dark-heading    font-bold">
+                    {graduationProjectData.test.question}
+                  </p>
+                  <br />
+                  <div className="flex flex-col gap-2">
+                    <p className="text-base text-dark-heading    font-bold">
+                      {graduationProjectData.test.subHeading}
+                    </p>
+                    <p className="text-base text-dark-heading   ">
+                      {graduationProjectData.test.methods}
+                    </p>
+                  </div>
+                  <br />
+                  <div className="flex flex-col gap-2">
+                    <p className="text-base text-dark-heading    font-bold">
+                      {graduationProjectData.test.subheadingWhy}
+                    </p>
+                    <p className="text-base text-dark-heading   ">
+                      {graduationProjectData.test.why}
+                    </p>
+                  </div>
+                  <br />
+                  <div className="flex flex-col gap-2">
+                    <p className="text-base text-dark-heading    font-bold">
+                      {graduationProjectData.test.subHeadingHow}
+                    </p>
+                    <p className="text-base text-dark-heading   ">
+                      {graduationProjectData.test.how}
+                    </p>
+                  </div>
+                  <br />
+                  <div className="flex flex-col gap-2">
+                    <p className="text-base text-dark-heading    font-bold">
+                      {graduationProjectData.test.resultHeading}
+                    </p>
+                    <p className="text-base text-dark-heading   ">
+                      {graduationProjectData.test.results}
+                    </p>
+                  </div>
+                  <br />
+
+                  <div className="flex flex-col gap-2">
+                    <p className="text-base text-dark-heading    font-bold">
+                      {graduationProjectData.test.conclusionHeading}
+                    </p>
+                    <p className="text-base text-dark-heading   ">
+                      {graduationProjectData.test.conclusion}
+                    </p>
+                    <br />
+                    <div>
+                      <a
+                        href={TestDocument}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button
+                          className="bg-gradient"
+                          style={{
+                            fontSize: "16px",
+                            padding: "10px 20px",
+                            border: "none",
+                            borderRadius: "5px",
+                          }}
+                        >
+                          <p className="font-bold"> View document</p>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div style={{ width: "50%", flex: "1", alignItems: "center" }}>
+                  <div className="flex flex-col gap-7">
+                    <div style={{ flex: "1", alignItems: "center" }}>
+                      <img
+                        src={graduationProjectData.test.image}
+                        alt="Prototype"
+                      />
+                    </div>
+                    <div style={{ flex: "1", alignItems: "center" }}>
+                      <img
+                        src={graduationProjectData.test.image1}
+                        alt="Prototype"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <h1
+          className="text-2xl text-dark-heading  text-4xl   font-bold mt-16 mb-16 bg-gradient "
+          style={{
+            padding: "4rem",
+            width: "100%",
+            textAlign: "center",
+          }}
+        >
+          {graduationProjectData.reflection}
+        </h1>
+        <div className="container mx-auto max-width pt-6 pb-16">
+          <div>
+            <section id="Test">
+              <br />
+              <p
+                className="text-base text-dark-heading    "
+                dangerouslySetInnerHTML={{
+                  __html: graduationProjectData.projectplanText,
+                }}
+              ></p>
+              <br />
             </section>
           </div>
         </div>
