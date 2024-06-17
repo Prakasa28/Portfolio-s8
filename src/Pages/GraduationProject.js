@@ -1119,7 +1119,7 @@ function GraduationProject() {
               <p
                 className="text-base text-dark-heading    "
                 dangerouslySetInnerHTML={{
-                  __html: graduationProjectData.projectplanText,
+                  __html: graduationProjectData.reflectionContent,
                 }}
               ></p>
               <br />
