@@ -11,6 +11,7 @@ import IframeComponent from "../Components/Iframe";
 import EmapthyMap from "../Graduatoin-Pdf/EmpathyMap.pdf";
 import MoscowAnalysis from "../Graduatoin-Pdf/MoSCoW analysis.pdf";
 import TechnicalPrototype from "../Graduatoin-Pdf/TechnicalPrototype.pdf";
+import technicalImplementation from "../Graduatoin-Pdf/Technical Implementation.pdf";
 
 function GraduationProject() {
   return (
@@ -911,7 +912,7 @@ function GraduationProject() {
                     <br />
                     <div>
                       <a
-                        href={TrendAnalysis}
+                        href={technicalImplementation}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
