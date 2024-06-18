@@ -20,7 +20,7 @@ const GraduationProjectData = {
   },
   introHeading: "Introduction",
   introText:
-    "Welcome to my graduation project portfolio! Here, I'll present the process and work I've done for my graduation project. The main goal of this project is to assist marketing professionals and non-developers at Cape in creating and editing pages on the Cape Marketing website without the help of a developer, thereby making the website more modular. Here, I will showcase all the work. Feel free to explore and learn more about my project.",
+    "Welcome to my graduation project portfolio! Here, I'll present the process and work I've done for my graduation project. The main goal of this project is to assist marketing professionals and non-developers at Cape in creating and editing pages on the Cape Marketing website without the help of a developer. Here, I will showcase all the work. Feel free to explore and learn more about my project.",
   introImage: IntroImage,
 
   projectplan: "Project Plan",
@@ -100,7 +100,7 @@ const GraduationProjectData = {
       "From the stakeholder interview summary and key takeaways, I identified how users behave and what concerns them, categorizing it into what users say, think, do, and feel. I recorded their words (Say), thoughts (Think), actions (Do), and emotions (Feel), creating a straightforward empathy map. This facilitates a clearer understanding of user experiences, aiding in the discovery of better solutions to their problems.",
     resultHeading: "Result: ",
     results:
-      "The marketing team seeks greater control over website changes, expressing frustration with reliance on developers. They're concerned about infrequent updates affecting marketing effectiveness and actively seek solutions to reduce dependence on developers, experiencing frustration over delays and concerns about users engagement.",
+      "The marketing team seeks greater control over website changes, expressing frustration with reliance on developers. They're concerned about infrequent updates affecting marketing effectiveness and actively seek solutions to reduce dependence on developers, experiencing frustration over delays and concerns about user engagement.",
     conclusionHeading: "Conclusion/recommendation:",
     conclusion:
       "So, in conclusion, through empathy mapping, I've identified what the stakeholders think, feel, say, and do to overcome dependencies on the developer. Based on these insights, the next step is to come up with a problem statement.",
@@ -204,10 +204,10 @@ const GraduationProjectData = {
   technicalImplementation: {
     question: "Technical Implementation of Dynamic Reusable Component Blocks",
     subHeading: "Software stack used:",
-    methods: "Technical Implementation of Dynamic Reusable Component Blocks",
+    methods: "Next.js for the frontend and Contentful as the CMS system.",
     subheadingWhy: "Why:",
     why:
-      "The main goal of the internship was to make the marketing website modular so that non-developers, such as the marketing team, could create, edit, and delete pages and components without the help of developers. Additionally, the primary objective of my internship was to have the website in production before the end of the internship, so the technical implementation crucial.",
+      " Based on the findings form the previous phases the main goal of the implementation phase was to make the marketing website modular so that non-developers, such as the marketing team, could create, edit, and delete pages and components without the help of developers. Additionally, the primary objective of my internship was to have the website in production before the end of the internship, so the technical implementation was crucial.",
     subHeadingHow: "How:",
     how:
       "I received new designs from the designer for six different pages of the marketing website. My goal was to create reusable and dynamic component blocks and set them up in the CMS system so that the marketing team and non-developers could create new pages using these blocks through Contentful. I also researched how to implement certain features in the prototype phase and used those insights to develop these components.",
