@@ -1114,7 +1114,7 @@ function GraduationProject() {
         </h1>
         <div className="container mx-auto max-width pt-6 pb-16">
           <div>
-            <section id="Test">
+            <section id="Reflection">
               <br />
               <p
                 className="text-base text-dark-heading    "

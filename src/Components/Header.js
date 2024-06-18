@@ -48,6 +48,11 @@ function Header() {
               Home
             </NavLink>
           </li>
+          <li className="pb-1 md:pb-0">
+            <NavLink to="/graduationProject" onClick={toggleClass}>
+              GraduationProject
+            </NavLink>
+          </li>
           {/* <li className="pb-1 md:pb-0">
             <NavLink to="/groupProject" onClick={toggleClass}>
               Group Project

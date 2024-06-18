@@ -2,7 +2,7 @@ import React from "react";
 import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Technologies from "../Pages/Technologies";
-import Projects from "../Pages/Projects";
+// import Projects from "../Pages/Projects";
 import Contact from "../Pages/Contact";
 
 function Content() {
@@ -11,7 +11,7 @@ function Content() {
       <Home />
       <About />
       <Technologies />
-      <Projects />
+      {/* <Projects /> */}
       <Contact />
     </>
   );
