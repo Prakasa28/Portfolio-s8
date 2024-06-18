@@ -135,7 +135,7 @@ function GraduationProject() {
             width: "100%",
             textAlign: "center",
           }}
-          id="Discove-Phase"
+          id="Discover-Phase"
         >
           {graduationProjectData.group2.subHeading}
         </h1>
