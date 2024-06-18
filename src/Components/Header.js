@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 // import { socialMediaUrl } from "../Details";
 import { personalDetails } from "../Details";
+import ReadingGuide from "../Graduatoin-Pdf/Reading Guide.pdf";
 
 function Header() {
   const { name } = personalDetails;
@@ -50,8 +51,13 @@ function Header() {
           </li>
           <li className="pb-1 md:pb-0">
             <NavLink to="/graduationProject" onClick={toggleClass}>
-              GraduationProject
+              Graduation Project
             </NavLink>
+          </li>
+          <li className="pb-1 md:pb-0">
+            <a href={ReadingGuide} target="_blank" rel="noopener noreferrer">
+              <p> Reading guide</p>
+            </a>
           </li>
           {/* <li className="pb-1 md:pb-0">
             <NavLink to="/groupProject" onClick={toggleClass}>
