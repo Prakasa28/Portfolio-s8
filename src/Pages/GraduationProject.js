@@ -13,6 +13,7 @@ import MoscowAnalysis from "../Graduatoin-Pdf/MoSCoW analysis.pdf";
 import TechnicalPrototype from "../Graduatoin-Pdf/TechnicalPrototype.pdf";
 import TechnicalImplementation from "../Graduatoin-Pdf/Technical Implementation.pdf";
 import TestDocument from "../Graduatoin-Pdf/Test document.pdf";
+import FrontPage from "../Graduatoin-Pdf/Frontpage.pdf";
 
 function GraduationProject() {
   const location = useLocation();
@@ -67,6 +68,22 @@ function GraduationProject() {
               {" "}
               {graduationProjectData.introText}
             </p>
+            <br />
+            <div>
+              <a href={FrontPage} target="_blank" rel="noopener noreferrer">
+                <button
+                  className="bg-gradient"
+                  style={{
+                    fontSize: "16px",
+                    padding: "10px 20px",
+                    border: "none",
+                    borderRadius: "5px",
+                  }}
+                >
+                  <p className="font-bold">View front page</p>
+                </button>
+              </a>
+            </div>
             <br />
             <br />
             <br />

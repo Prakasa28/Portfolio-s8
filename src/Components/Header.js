@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 // import { socialMediaUrl } from "../Details";
 import { personalDetails } from "../Details";
 import ReadingGuide from "../Graduatoin-Pdf/Reading Guide.pdf";
+import FrontPage from "../Graduatoin-Pdf/Frontpage.pdf";
 
 function Header() {
   const { name } = personalDetails;
@@ -57,6 +58,11 @@ function Header() {
           <li className="pb-1 md:pb-0">
             <a href={ReadingGuide} target="_blank" rel="noopener noreferrer">
               <p> Reading guide</p>
+            </a>
+          </li>
+          <li className="pb-1 md:pb-0">
+            <a href={FrontPage} target="_blank" rel="noopener noreferrer">
+              <p> Front page</p>
             </a>
           </li>
           {/* <li className="pb-1 md:pb-0">
