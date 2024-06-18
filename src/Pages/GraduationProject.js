@@ -1,5 +1,5 @@
-// import React, { useEffect } from "react";
-// import { useLocation } from "react-router-dom";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 import Header from "../Components/Header";
 import DesignProcess from "../Components/DesignProcess";
@@ -15,6 +15,21 @@ import TechnicalImplementation from "../Graduatoin-Pdf/Technical Implementation.
 import TestDocument from "../Graduatoin-Pdf/Test document.pdf";
 
 function GraduationProject() {
+  const location = useLocation();
+  useEffect(() => {
+    const scrollToSection = () => {
+      const section = location.hash.substr(1); // Remove the leading '#'
+      const targetElement = document.getElementById(section);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
+    };
+
+    if (location.hash) {
+      // Wait for the component to render before scrolling
+      setTimeout(scrollToSection, 0);
+    }
+  }, [location]);
   return (
     <div>
       <Header />
@@ -120,6 +135,7 @@ function GraduationProject() {
             width: "100%",
             textAlign: "center",
           }}
+          id="Discove-Phase"
         >
           {graduationProjectData.group2.subHeading}
         </h1>
@@ -233,6 +249,7 @@ function GraduationProject() {
             width: "100%",
             textAlign: "center",
           }}
+          id="Define-Phase"
         >
           {graduationProjectData.definePhaseHeading}
         </h1>
@@ -521,6 +538,7 @@ function GraduationProject() {
             width: "100%",
             textAlign: "center",
           }}
+          id="Ideate-Phase"
         >
           {graduationProjectData.ideatePhaseHeading}
         </h1>
@@ -744,6 +762,7 @@ function GraduationProject() {
             width: "100%",
             textAlign: "center",
           }}
+          id="Prototype-Phase"
         >
           {graduationProjectData.prototypePhaseHeading}
         </h1>
@@ -880,6 +899,7 @@ function GraduationProject() {
             width: "100%",
             textAlign: "center",
           }}
+          id="Implementation-Phase"
         >
           {graduationProjectData.implementationPhase}
         </h1>
@@ -1004,6 +1024,7 @@ function GraduationProject() {
             width: "100%",
             textAlign: "center",
           }}
+          id="Test-Phase"
         >
           {graduationProjectData.testPhase}
         </h1>
@@ -1109,6 +1130,7 @@ function GraduationProject() {
             width: "100%",
             textAlign: "center",
           }}
+          id="Reflection"
         >
           {graduationProjectData.reflection}
         </h1>
